@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.3.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="ut3-lb-CLh">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V6X-c3-ZzE" userLabel="text container">
+                                <rect key="frame" x="40" y="220" width="240" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quail Apps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t51-w2-yRY">
+                                        <rect key="frame" x="21" y="39" width="198" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="41W-lz-WbI"/>
+                                            <constraint firstAttribute="width" constant="198" id="U40-8U-6sg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="38"/>
+                                        <color key="textColor" red="0.3672067054" green="1" blue="0.83241212229999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="t51-w2-yRY" firstAttribute="leading" secondItem="V6X-c3-ZzE" secondAttribute="leading" constant="21" id="Zx0-Qq-rr9"/>
+                                    <constraint firstItem="t51-w2-yRY" firstAttribute="leading" secondItem="V6X-c3-ZzE" secondAttribute="leadingMargin" constant="13" id="b3Z-x4-tmn"/>
+                                    <constraint firstAttribute="trailing" secondItem="t51-w2-yRY" secondAttribute="trailing" constant="21" id="bEw-EN-U8x"/>
+                                    <constraint firstItem="t51-w2-yRY" firstAttribute="top" secondItem="V6X-c3-ZzE" secondAttribute="topMargin" constant="31" id="c3b-sd-fRJ"/>
+                                    <constraint firstItem="t51-w2-yRY" firstAttribute="top" secondItem="V6X-c3-ZzE" secondAttribute="top" constant="39" id="s8k-MS-IoX"/>
+                                    <constraint firstAttribute="bottom" secondItem="t51-w2-yRY" secondAttribute="bottom" constant="39" id="uAQ-5T-QZy"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="t51-w2-yRY" secondAttribute="trailing" constant="13" id="wfE-bP-di7"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="t51-w2-yRY" secondAttribute="bottom" constant="31" id="xKW-sA-39G"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="ut3-lb-CLh" secondAttribute="bottom" id="EaZ-t1-8qS"/>
+                            <constraint firstItem="ut3-lb-CLh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="LEJ-T6-PRl"/>
+                            <constraint firstAttribute="trailing" secondItem="ut3-lb-CLh" secondAttribute="trailing" id="ZbK-KE-6nS"/>
+                            <constraint firstItem="V6X-c3-ZzE" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="24" id="c25-ul-mYx"/>
+                            <constraint firstItem="V6X-c3-ZzE" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="200" id="iFJ-hD-SpJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="V6X-c3-ZzE" secondAttribute="trailing" constant="24" id="iNf-qk-xXB"/>
+                            <constraint firstItem="ut3-lb-CLh" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="lhc-nx-PXZ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="V6X-c3-ZzE" secondAttribute="bottom" constant="220" id="pLh-Pf-Yfa"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.399999999999999" y="372.86356821589209"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="596" height="842"/>
+    </resources>
+</document>
